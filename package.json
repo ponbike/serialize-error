@@ -1,9 +1,9 @@
 {
-	"name": "serialize-error",
+	"name": "@ponbike/serialize-error",
 	"version": "11.0.2",
 	"description": "Serialize/deserialize an error into a plain object",
 	"license": "MIT",
-	"repository": "sindresorhus/serialize-error",
+	"repository": "ponbike/serialize-error",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
