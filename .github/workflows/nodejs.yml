@@ -13,7 +13,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run vulnerabilities
+          npm run vulnerabilities --if-present
           npm run lint --if-present
           npm run cpd --if-present
           npm run prettier --if-present
