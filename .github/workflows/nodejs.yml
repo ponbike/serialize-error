@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v3
       - name: npm install, build, and test
         run: |
-          npm ci
+          npm install
           npm run vulnerabilities
           npm run lint --if-present
           npm run cpd --if-present
