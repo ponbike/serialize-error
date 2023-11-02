@@ -1,6 +1,6 @@
 {
 	"name": "@ponbike/serialize-error",
-	"version": "11.0.2",
+	"version": "11.0.3",
 	"description": "Serialize/deserialize an error into a plain object",
 	"license": "MIT",
 	"repository": "ponbike/serialize-error",
@@ -11,6 +11,7 @@
 		"url": "https://sindresorhus.com"
 	},
 	"type": "module",
+	"types": "src/index.d.ts",
 	"exports": {
 		"import": "./src/index.js",
 		"require": "./dist/index.cjs",
@@ -22,7 +23,7 @@
 	"scripts": {
 		"//test": "xo && ava && tsd",
 		"test": "prettier -c src && ava && tsd -t src/index.d.ts -f src/index.test-d.ts",
-		"build": "tsup ",
+		"build": "tsup",
 		"prepare": "npm run build"
 	},
 	"files": [
